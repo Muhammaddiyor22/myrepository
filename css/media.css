@@ -1,0 +1,82 @@
+@media (max-width: 1156px) {
+}
+@media (max-width:944px) {
+    .nav_iteams:nth-child(1){
+        display: none;
+    }
+    .nav_iteams:nth-child(2){
+        display: none;
+    }
+    .nav_select{
+        padding-right: 16px;
+    }
+    .hero_content>h1{
+        font-size: 64px;
+        line-height: 64px;
+}
+.hero_content>p{
+    font-size: 24px;
+    line-height: 32px;
+}
+}
+@media (max-width:311px) {
+    .nav_select{
+        display: none;
+    }
+    .nav_list>button{
+        display: none;
+    }
+    .burger_icon{
+        display: block;
+    }
+    .hero_content>h1{
+        text-align: center;
+    }
+    .poplur_button{
+        display: none;
+    }
+    .poplur_button_phone{
+        display: flex;
+    }
+    .rent_imag_iteam:nth-child(2){
+        display: block; 
+        width: 100%;
+       
+    }
+    .rent_imag_iteam:nth-child(1){
+       display:none;
+       }
+       .rentacar{
+        flex-direction: column;
+       }
+       .naerby{
+        grid-template-columns: 1fr;
+       }
+       .naerby_cards{
+        min-width: 100%;
+       }
+       
+       .amazing{
+        text-align: center;
+       }
+       .service_list{
+        gap: 24px;
+        grid-template-columns: 1fr;
+       }
+       .brands_list{
+        place-content: center;
+        grid-template-columns: 1fr;
+        place-items: center;
+       }
+       .brands_iteams{
+        border: none;
+        border-bottom: 2px solid #E6E8EC;
+       }
+       .brands_iteams:nth-child(5){
+        display: none;
+       }
+       .brands_iteams:nth-child(6){
+        display: none;
+       }
+    
+    }
